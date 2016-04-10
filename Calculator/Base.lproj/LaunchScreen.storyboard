@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="0hd-1x-QSI">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="VoZ-zk-jxQ">
+            <objects>
+                <viewController id="0hd-1x-QSI" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2Zp-kg-778"/>
+                        <viewControllerLayoutGuide type="bottom" id="yQi-ff-yi6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AJ3-8J-FAL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Simple Complex Calculator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="da7-sD-WBW">
+                                <rect key="frame" x="151" y="164" width="299" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="299" id="qCM-pQ-RLR"/>
+                                    <constraint firstAttribute="height" constant="35" id="y6G-CW-2Gz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IowanOldStyle-Roman" family="Iowan Old Style" pointSize="24"/>
+                                <color key="textColor" red="0.1516808865" green="0.2159425844" blue="0.90244391030000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by Konstantine Stolyarenko" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HYY-rl-HvJ">
+                                <rect key="frame" x="151" y="217" width="299" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="8yn-5N-UiY"/>
+                                    <constraint firstAttribute="width" constant="299" id="Cee-lT-yyD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IowanOldStyle-Roman" family="Iowan Old Style" pointSize="20"/>
+                                <color key="textColor" red="0.1516808865" green="0.2159425844" blue="0.90244391030000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2016 (c)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SbM-x0-cdw">
+                                <rect key="frame" x="151" y="241" width="299" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="299" id="Wd0-Vq-kmc"/>
+                                    <constraint firstAttribute="height" constant="25" id="Z7T-DD-b8Z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="IowanOldStyle-Roman" family="Iowan Old Style" pointSize="16"/>
+                                <color key="textColor" red="0.1516808865" green="0.2159425844" blue="0.90244391030000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.79332024550000002" green="0.96622710290000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="SbM-x0-cdw" firstAttribute="centerX" secondItem="AJ3-8J-FAL" secondAttribute="centerX" id="Ngd-La-hhX"/>
+                            <constraint firstItem="SbM-x0-cdw" firstAttribute="top" secondItem="da7-sD-WBW" secondAttribute="bottom" constant="42" id="Nt9-Ga-x90"/>
+                            <constraint firstItem="da7-sD-WBW" firstAttribute="centerX" secondItem="AJ3-8J-FAL" secondAttribute="centerX" id="O0c-1U-TGx"/>
+                            <constraint firstItem="da7-sD-WBW" firstAttribute="top" secondItem="2Zp-kg-778" secondAttribute="bottom" constant="144" id="VHL-4i-CIL"/>
+                            <constraint firstItem="HYY-rl-HvJ" firstAttribute="centerX" secondItem="AJ3-8J-FAL" secondAttribute="centerX" id="oWM-Hy-1As"/>
+                            <constraint firstItem="HYY-rl-HvJ" firstAttribute="top" secondItem="da7-sD-WBW" secondAttribute="bottom" constant="18" id="yyo-SS-Yoc"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HoB-gW-n09" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="104" y="310"/>
+        </scene>
+    </scenes>
+</document>
