@@ -1,13 +1,10 @@
-# Homework 6 Calculator
-
-Tasks:
-**Write The Calculator application.**
+# Complex Calculator
 
 Include:
 * **Autolayout**
-* **Functions: +,-,*,/,sqrt,x^2,x^3**
-* **Minimum basic operations on whole numbers up to 10.**
+* **Functions: z1=x+iy: z1+z2, z1-z2**
+* **Module(z) and Argument(z)**
 * **Average operations on integers of any dimension and the ability to erase and reset the data already entered.**
 
-
+by Konstantine Stolyarenko.
 
